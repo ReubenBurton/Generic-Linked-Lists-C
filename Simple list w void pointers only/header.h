@@ -1,8 +1,6 @@
 #ifndef HEADER_H
 #define HEADER_H
 
-#include "newSleep.h"
-
 typedef struct data
 {
     int hp;
