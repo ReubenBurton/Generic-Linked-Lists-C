@@ -15,9 +15,9 @@ This includes:
 
 This is accomplished through the use of **void pointers**. One requirement of void pointers is the data to be accessed must be _typecast_.
 A full explanation of void pointers and typecasting goes beyond the scope of this readme, but the gist of it is:
-* **int:** *(int*)_data_
-* **float:** *(float*)_data_
-* **char:** *(char*)_data_
+* **int:** \*(int*)_data_
+* **float:** \*(float*)_data_
+* **char:** \*(char*)_data_
 * **strings:** (char*)_data_
 ..
 * **structs:**  *(struct typedef*)_data.field_
