@@ -1,4 +1,4 @@
-# I-hate-generic-linked-lists
+#Generic-Linked-Lists-in-C
 
 ## Generic Linked List overview:
 
