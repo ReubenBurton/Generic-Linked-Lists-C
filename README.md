@@ -18,7 +18,7 @@ The basic operations of list functions are;
 * **deletion:** deletes a node at the start, end or predefined position of the list
 * **display:** displays the list. This operation will vary depending on the data type contained in the list or the desired nodes
 * **search:** searches the list using a _"key"_
-* **delete:** deletes the node at a desired position
+* **sort:** sorts the list according to a defined criterion
 * **free all:** frees the list from memory. Necessary in C89 due to lack of garbage collection
 
 More advanced operations to come...
