@@ -20,7 +20,7 @@ A full explanation of void pointers and typecasting goes beyond the scope of thi
 * **char:** \*(char*)_data_
 * **strings:** (char*)_data_
 ..
-* **structs:**  (struct typedef*)_data.field_
+* **structs:**  ((struct typedef*)_data)->field_
 
 
 The basic operations of list functions are;
