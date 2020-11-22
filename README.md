@@ -19,7 +19,6 @@ A full explanation of void pointers and typecasting goes beyond the scope of thi
 * **float:** \*(float*)_data_
 * **char:** \*(char*)_data_
 * **strings:** (char*)_data_
-..
 * **structs:**  ((struct typedef*)_data)->field_
 
 
