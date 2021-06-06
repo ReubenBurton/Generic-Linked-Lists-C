@@ -21,23 +21,22 @@ A full explanation of void pointers and typecasting goes beyond the scope of thi
 * **strings:** (char*)_data_
 * **structs:**  ((struct typedef*)_data)->field_
 
-_Arrays_
-
+_Arrays_  
 Arrays are best dealt with using a struct containing the array, as well as the dimensions of the array.
 This is necessary because array operations require array _dimensions_. This applies to multi dimensional arrays.
 For example, for an array containing 2 dimensions I would build a struct like so:
 
-typedef struct ArrayPrototype
-{
-  _initialiser_** array;
-  int x;
-  int y;
+typedef struct ArrayPrototype  
+{  
+&nbsp;&nbsp;&nbsp;&nbsp; _initialiser_** array;  
+&nbsp;&nbsp;&nbsp;&nbsp; int x;  
+&nbsp;&nbsp;&nbsp;&nbsp; int y;  
 }
 
-The data could then be accessed like this:\n
-* **arrays:** ((struct typedef*)_data)->array_
-              ((struct typedef*)_data)->x_
-              ((struct typedef*)_data)->y_
+The data could then be accessed like this:  
+* **arrays:** ((struct typedef*)_data)->array_  
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ((struct typedef*)_data)->x_  
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ((struct typedef*)_data)->y_  
 
 The basic operations of list functions are;
 * **insertion:** adds a node at the start, end or index position of the list
