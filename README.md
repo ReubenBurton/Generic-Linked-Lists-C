@@ -33,7 +33,7 @@ typedef struct ArrayPrototype
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int y;  
 }
 
-with _initialiser_ being type char, int, double, etc...  
+with _initialiser_ being type _char_, _int_, _double_, etc...  
 
 The data could then be accessed like this:  
 * **arrays:** ((struct typedef*)_data)->array_  
