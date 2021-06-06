@@ -29,14 +29,14 @@ For example, for an array containing 2 dimensions I would build a struct like so
 typedef struct ArrayPrototype  
 {  
 &nbsp;&nbsp;&nbsp;&nbsp; _initialiser_** array;  
-&nbsp;&nbsp;&nbsp;&nbsp; int x;  
-&nbsp;&nbsp;&nbsp;&nbsp; int y;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int x;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int y;  
 }
 
 The data could then be accessed like this:  
 * **arrays:** ((struct typedef*)_data)->array_  
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ((struct typedef*)_data)->x_  
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ((struct typedef*)_data)->y_  
+        &nbsp;&nbsp;     ((struct typedef*)_data)->x_  
+        &nbsp;&nbsp;    ((struct typedef*)_data)->y_  
 
 The basic operations of list functions are;
 * **insertion:** adds a node at the start, end or index position of the list
