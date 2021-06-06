@@ -34,7 +34,7 @@ typedef struct ArrayPrototype
   int y;
 }
 
-The data could then be accessed like this:
+The data could then be accessed like this:\n
 * **arrays:** ((struct typedef*)_data)->array_
               ((struct typedef*)_data)->x_
               ((struct typedef*)_data)->y_
