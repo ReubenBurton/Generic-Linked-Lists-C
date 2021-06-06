@@ -22,6 +22,7 @@ A full explanation of void pointers and typecasting goes beyond the scope of thi
 * **structs:**  ((struct typedef*)_data)->field_
 
 _Arrays_
+
 Arrays are best dealt with using a struct containing the array, as well as the dimensions of the array.
 This is necessary because array operations require array _dimensions_. This applies to multi dimensional arrays.
 For example, for an array containing 2 dimensions I would build a struct like so:
