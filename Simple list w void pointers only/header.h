@@ -1,6 +1,7 @@
 #ifndef HEADER_H
 #define HEADER_H
 
+// Just an example of a data struct from a game I developed. Feel free to make your own!
 typedef struct data
 {
     int hp;
